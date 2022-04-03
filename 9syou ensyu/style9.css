@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  /*一番上の部分*/
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+main {
+  /*文字の部分の設定*/
+  width: 960px;
+  margin: 50px auto;
+  display: flex; /*BOXを横に並べる*/
+}
+
+.step-box {
+  /*ボックスの設定*/
+  width: 300px; /*BOXサイス設定*/
+  margin-right: 30px; /*BOX同士の余白設定*/
+  padding: 10px; /*BOX内の余白設定*/
+  position: relative;
+  background-color: #eee;
+}
+
+.step-box:last-child {
+  margin-right: 0;
+}
+
+.step-img1 {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-position: bottom; /*下のほうに合わせる*/
+  background-size: cover; /*全部*/
+}
+
+.step-img2 {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-position: bottom; /*下のほうに合わせる*/
+  background-size: cover; /*全部*/
+}
+
+.step-img3 {
+  /*BOX内の画像設定*/
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-position: bottom; /*下のほうに合わせる*/
+  background-size: cover; /*全部*/
+}
+
+.step-num {
+  /*stepの設定*/
+  position: absolute; /*左上に持ってくる*/
+  top: 0; /*余白をなくす*/
+  left: 0; /*余白をなくす*/
+  background-color: #ff9a4b;
+  color: #fff;
+}
+
+.title {
+  /*タイトルの余白設定*/
+  margin: 15px 0 5px;
+}
+
+footer {
+  /*一番下の設定*/
+  height: 50px;
+  background-color: #aaa;
+}

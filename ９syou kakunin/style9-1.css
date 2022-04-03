@@ -1,0 +1,11 @@
+.fab {
+  /*アイコンのサイズ設定*/
+  font-size: 32px;
+}
+
+.position {
+  /*アイコンの位置設定*/
+  position: absolute;
+  top: 100px;
+  right: 40px;
+}
